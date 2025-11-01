@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>welcome to My portfolio</title>
+        <link rel="styleesheet" href="style.css" >
+       </head>
+       <style>
+         *{
+    font-family: monospace;
+ }
+body{
+    margin: 0;
+    background-color: white;
+}
+ header{
+   height: 100vh;
+   color: white;
+   background-color:orange;
+   cursor:pointer;
+   font-size: 15px;
+    display: flex;
+    min-height: 100vh;
+    justify-content:center;
+    align-items: center        
+}
+header h1{
+    color: white;
+    margin:0;
+             
+}
+h1{
+    
+    color:#2196f3
+    
+}
+.button:hover{
+    color:white;
+    background-color: darkblue;
+
+}
+img{
+    height: 200px;
+    cursor: pointer;
+
+}
+main{
+    padding: 20px;
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.submit{
+  height:40px;
+   width:140px;
+   border:none ;
+   border-radius:10px;
+   cursor:pointer;
+   background-color:#2196f3;
+   color:white
+}
+.submit:hover{
+    color:black;
+    background-color: white;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 25px;
+}
+.fixedButton{
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      height: 70px;
+      width: 70px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      color: white;
+      background-color:red;
+}
+footer{
+    height: 124px;
+    background-color: black;
+    color: lightgray;
+}
+       </style>
+    <body>
+        <header>
+                    <h1>welcome to my web site</h1>
+              <a href="https://www.instagram.com/bhanu_naik__06" target="_parent">
+                <button class="button">
+                    About
+                </button>
+              </a>
+              <a href="web.html" target="_parent">
+                <button class="button">
+                    Skills
+                </button>
+                </a>
+                <a href="https://www.youtube.com/@SwaroopVITB" target="_blank">
+                     <button class="button">
+                 project
+                </button>
+                 </a>
+                 <a href="youtub.html" target="_parent">
+                    <button class="button">
+                        Contact
+                    </button>
+                    </a>
+
+        </header>
+        <main>
+            <section id="about">
+             <h1>Bhanu Naik Mudavath</h1>
+           <img src="project/IMG_20240330_232727.jpg" alt="image" wedth="500" height="300" />
+        <p>I am passionate Web developer with a focus on front end technology</p>
+        <p>I am currently Pursuing my B Tech in<em> M V R Institute of Technology Vijayawada</em></p>
+        <p>I have learnt Web Development from <br> code with nextsync.</p>
+        <p>You can<strong> Click here</strong> to Checkout What I have learnt in<span> HTML,CSS,JS</span></p>
+
+
+            </section>
+            <section id="skills">
+             <h1>My Skills</h1>
+        <ol>
+            <li>HTML Basics</li>
+            <li>CSS Basics</li>
+            <li>JAVA Script Basics</li>
+            <li>Python Basics</li>
+        </ol>
+
+            </section>
+            <section id="projects">
+                <h1>projects</h1>
+                 <ul>
+                    <li>Web Development</li>
+                    <li>I developed My portfolio</li>
+                 </ul>
+            </section>
+            <section id="contact">
+             <h1>Contact Me</h1>
+           <p>Feel free to get in touch with me using the form below</p>
+           <form>
+            <label for="name">Name:</label>
+            <input type="text">
+
+             <label for="email">Email:</label>
+            <input type="email">
+            <b>Choose your gender</b>
+            <input type="radio" id="male" value="male">
+            <label for="male">Male </label>
+            <input type="radio" id="female" value="female">
+            <label for="female">Female</label>
+              <br>
+
+              <b>Select your interests:</b>
+              <input type="checkboxs" id="coding" value="coding">
+              <label for="coding">Coding</label>
+              <input type="checkbox" id="reaing" value="reading">
+              <label for="reading">Reading</label>
+               <br>
+              <label for="bio">Bio(up to 200 characters):</label>
+              <input type="text">
+              <br>
+
+              <button type="submit" class="submit">submit</button>
+           </section>
+            
+        </main>
+         <button class="fixedButton">Top</button>
+        <footer>
+           <p> ©2025 my portfolio </p>
+        </footer>
+
+           </form>
+    </body>
+</html>
